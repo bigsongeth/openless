@@ -761,6 +761,7 @@ export const en: typeof zhCN = {
       sandboxGuardHint: 'This backend only offers coarse sandbox levels, not a per-command high-risk list: when it hits a limit it reports the failure as-is instead of showing an "approve this command" card.',
       codexModelHint: 'Enter a Codex model name (e.g. gpt-5); leave empty to use the setting in ~/.codex/config.toml.',
       codexModelPlaceholder: 'Empty = Codex default',
+      dshModelHint: "dsh's headless profile has no model switch: the model is decided by dsh's own profile and cannot be changed here.",
       panelHotkey: 'Panel hotkey (voice agent)',
       panelHotkeyDesc: 'Record voice → ASR → Claude → streamed into a panel. Default Cmd/Ctrl+Shift+Enter.',
       quickHotkey: 'Quick-take hotkey',

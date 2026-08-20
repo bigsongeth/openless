@@ -763,6 +763,7 @@ export const ja: typeof zhCN = {
       sandboxGuardHint: 'このバックエンドは粗い粒度のサンドボックス段階しか持たず、コマンド単位の高リスク一覧はありません。制限に触れた場合はそのままエラーとして報告し、「このコマンドを承認」カードは表示されません。',
       codexModelHint: 'Codex のモデル名（gpt-5 など）を入力します。空欄の場合は ~/.codex/config.toml の設定を使います。',
       codexModelPlaceholder: '空欄 = Codex の既定値',
+      dshModelHint: 'dsh の headless プロファイルにモデル切り替えはありません。モデルは dsh 自身のプロファイルで決まり、ここでは変更できません。',
       panelHotkey: 'パネルキー（音声 Agent）',
       panelHotkeyDesc: '録音 → ASR → Claude → パネルにストリーミング表示。デフォルト Cmd/Ctrl+Shift+Enter。',
       quickHotkey: 'クイック取得キー',

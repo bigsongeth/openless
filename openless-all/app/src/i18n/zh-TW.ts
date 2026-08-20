@@ -761,6 +761,7 @@ export const zhTW: typeof zhCN = {
       sandboxGuardHint: '此後端只有粗粒度沙箱層級，沒有逐指令的高風險清單：碰到限制時會直接據實回報錯誤，不會跳出「核准這條指令」的卡片。',
       codexModelHint: '填 Codex 的模型名稱（如 gpt-5）；留空則使用 ~/.codex/config.toml 的設定。',
       codexModelPlaceholder: '留空 = 使用 Codex 自己的預設',
+      dshModelHint: 'dsh 的 headless 設定沒有模型開關：模型由 dsh 自己的 profile 決定，這裡改不了。',
       panelHotkey: '面板鍵（語音 Agent）',
       panelHotkeyDesc: '錄音 → ASR → Claude → 結果串流進面板。預設 Cmd/Ctrl+Shift+Enter。',
       quickHotkey: '快取用鍵',

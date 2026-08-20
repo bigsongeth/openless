@@ -759,6 +759,7 @@ export const zhCN = {
       sandboxGuardHint: '该后端只有粗粒度沙箱档位，没有逐命令的高风险清单：撞到限制时会直接如实报错，不会弹出「批准这条命令」的卡片。',
       codexModelHint: '填 Codex 的模型名（如 gpt-5）；留空则用 ~/.codex/config.toml 里的设置。',
       codexModelPlaceholder: '留空 = 用 Codex 自己的默认',
+      dshModelHint: 'dsh 的 headless 配置里没有模型开关：模型由 dsh 自己的 profile 决定，在这里改不了。',
       panelHotkey: '面板键（语音 Agent）',
       panelHotkeyDesc: '录音 → ASR → Claude → 结果流式进面板。默认 Cmd/Ctrl+Shift+Enter。',
       quickHotkey: '快取用键',
